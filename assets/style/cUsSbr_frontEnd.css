@@ -1,0 +1,88 @@
+/**
+ *
+ * SIGNUP BAR BY CONTACTUS.COM
+ *
+ * Initialization Contact Form STYLES
+ * @since 1.0 First time this was introduced into plugin.
+ * @author ContactUs.com <support@contactus.com>
+ * @copyright 2014 ContactUs.com Inc.
+ * Company      : contactus.com
+ **/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
+
+.oSans{ font-family: 'Open Sans', sans-serif !important; font-weight: 400; }
+.oSans.bold{ font-weight: 700; }
+.oSwald{ font-family: 'Oswald', sans-serif !important; font-weight: 400; }
+.oSwald.bold{ font-weight: 700; }
+.DroidSerif{ font-family: 'Droid Serif', serif !important; font-weight: 400; }
+.DroidSerif.bold{ font-weight: 700; }
+.Playfair{font-family: 'Playfair Display', serif !important; font-weight: 400;}
+.Playfair.bold{font-weight: 700;}
+
+.Arial{font-family: Arial, Helvetica, sans-serif !important;}
+.Helvetica{font-family: Helvetica, sans-serif !important;}
+.Verdana{font-family: Verdana, Arial, sans-serif !important;}
+.Tahoma{font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif !important;}
+.Times{font-family: "Times New Roman";}
+
+.Arial.bold,.Helvetica.bold,.Verdana.bold,.Tahoma.bold,
+.Times.bold{font-weight: 700;font-weight: bold;}
+
+.oSans.ita,.oSwald.ita,.DroidSerif.ita,.Playfair.ita,.Arial.ita,.Helvetica.ita,.Verdana.ita,.Tahoma.ita,
+.Times.ita{font-style: italic;}
+
+div.cUs_oSbr{width:100%;min-height:20px;height:auto;position:fixed;cursor:pointer;z-index:999666999;padding-bottom:5px;}
+div.cUs_oSbr{display: none;box-sizing:content-box !important;-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;}
+div.cUs_oSbr._t0p{top:0;left:0;}
+div.cUs_oSbr._b0t{bottom:0;left:0;}
+div.cUs_oSbr._shadow{-webkit-box-shadow: 0 8px 6px -6px #333;-moz-box-shadow: 0 8px 6px -6px #333;box-shadow: 0 0px 10px 0 #333;}
+
+div.cUs_oSbr > ._xt{width: 92.4%;max-height: 98%;overflow: hidden;top:26%;left: 2.9%;padding-top:10px;}
+
+div.cUs_oSbr.dFt{}
+div.cUs_oSbr p{text-align: center;line-height: normal !important;}
+
+.jbar {font-family:inherit; background:#DB5903;position:fixed;z-index:998;width:100%;text-align:center;}
+.jbar,
+.jbar-push {display:none;transition:margin-top .25s linear;-webkit-transition:margin-top .25s linear;-moz-transition:margin-top .25s linear;}
+.jbar-wrap {padding:0 25px;margin:8px 0;text-align:center;}
+.jbar p {margin:0;padding:0;font-size:14px;}
+.jbar-button {color:#FFF;display:inline-block;*display:inline;zoom:1;}
+.jbar-button {background:#333;text-decoration:none;margin:0 10px;padding:5px 15px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+.jbar-button:hover {background:#222;}
+.jbar-up-toggle {position:absolute;top:3px;right:25px;display:block;padding:0px 10px 5px;}
+.jbar-down-toggle {visibility:hidden;position:fixed;right:25px;z-index:999;display:block;padding:10px 10px 5px;border:1px solid #FFF;border-top:none;border-radius:0 0 4px 4px;box-shadow:0 1px 4px rgba(0,0,0,0.3);-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3);-moz-box-shadow:0 1px 4px rgba(0,0,0,0.3);transition:margin-top .15s linear;-webkit-transition:margin-top .15s linear;-moz-transition:margin-top .15s linear;}
+.jbar-up-arrow {width:15px;height:19px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAMAAABBexbDAAAADFBMVEXu7u5JSUkAAAAAAABdVQ4zAAAABHRSTlOGfRIAX3wErQAAADtJREFUeNrNzrENACAMA8EH9t8ZKXrjFXDlXONwzEohsEMEdojAI4QSQgmhhFBCKDHxYjKLyvQfBPrbBQBhAvZmanT9AAAAAElFTkSuQmCC) no-repeat center center;}
+.jbar-down-arrow {width:21px;height:23px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAMAAADTAfSvAAAAnFBMVEWgoKD///8PDw8RERH///+cnJyfn58rKyv///////////8mJib///////+ampr///+FhYX///////////////+Dg4P///////+Li4sGBgb///////////8hISGOjo7///////////+WlpaRkZH///////8vLy////////////////////8XFxf///8cHBz///8MDAwAAAAAAAAAAABgXTkEAAAANHRSTlNWJmUsKVVVMBsYOS8XGlMBSQUfMzVIBANLKjI4HS5NNx4vUE8tJDE6IzQrNiwhLQIrYSkAN4qAdAAAAIRJREFUeNrdz0UWwzAQA9ApMyVlprATt9b979bWjuH5CNVu/mYkgsxbR521Cp2/0qj5G2pUzaaSKuElzglRl3mYjAlodFou9pKB/NaeviyOhhNIneV3w6dDXzfjz0fN1eVo+/LbeSexuLor+H77RVaUcBWbbC5YptAq1stVmMJXLAKD+AAYmVm/0d4W0wAAAABJRU5ErkJggg==) no-repeat center center;}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    div.cUs_oSbr{-moz-box-sizing: border-box !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;float: left;}
+    div.cUs_oSbr{-webkit-text-size-adjust: 65%;text-size-adjust: 55%;overflow: auto;float: left;}
+    div.cUs_oSbr > ._xt{width: 73.2% !important;height:100% !important;vertical-align: middle !important;display: block; position:relative;padding:10px;}
+}
+
+/*  (portrait and landscape) ----------- */
+
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 1280px) {
+    div.cUs_oSbr{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; }
+    div.cUs_oSbr{-webkit-text-size-adjust: 50%;text-size-adjust: 50%;overflow-y: visible  !important;padding-bottom: 10px;}
+    div.cUs_oSbr > ._xt{width: 83.2% !important;height: auto !important;overflow: hidden;padding-bottom: 15px; position:relative} 
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /* Styles */
+    div.cUs_oSbr{-webkit-text-size-adjust: 100%;text-size-adjust: 100%;overflow-y: visible  !important;padding-bottom: 10px;}
+     div.cUs_oSbr > ._xt{position:relative}
+}
